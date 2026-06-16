@@ -1,16 +1,84 @@
-# React + Vite
+# Todo List 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient todo list web-based application built with **React** and **Vite**. Keep track of your tasks with an easy-to-use interface.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Check out the live app here: https://athulgeorge24.github.io/todo-list/
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - JavaScript library for building user interfaces
+- **Vite** - Next-generation frontend build tool
+- **ESLint** - Code quality tool
+- **GitHub Pages** - Hosting
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✦ Add new tasks
+- ✦ Mark tasks as complete/incomplete
+- ✦ Delete tasks
+- ✦ Clean and responsive UI
+
+## Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Clone and Install
+
+```bash
+git clone https://github.com/athulgeorge24/todo-list.git
+cd todo-list
+npm install
+```
+
+### Running Locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173/`
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+### Deploying to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+This will build the app and deploy it to the `gh-pages` branch.
+
+## Project Structure
+
+```
+src/
+├── main.jsx          # Entry point
+├── App.jsx           # Main app component
+├── App.css           # App styles
+├── index.css         # Global styles
+└── assets/           # Static assets
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run deploy` - Deploy to GitHub Pages
+
+## Contributing
+
+Feel free to fork this project and submit pull requests!
+
+## License
+
+This project is open source and available under the MIT License.
