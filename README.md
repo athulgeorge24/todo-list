@@ -62,11 +62,11 @@ This will build the app and deploy it to the `gh-pages` branch.
 
 ```
 src/
-├── main.jsx          # Entry point
-├── App.jsx           # Main app component
-├── App.css           # App styles
-├── index.css         # Global styles
-└── assets/           # Static assets
+├── main.jsx          
+├── App.jsx           
+├── App.css           
+├── index.css         
+└── assets/           
 ```
 
 ## Available Scripts
