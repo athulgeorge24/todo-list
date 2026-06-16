@@ -56,8 +56,6 @@ npm run build
 npm run deploy
 ```
 
-This will build the app and deploy it to the `gh-pages` branch.
-
 ## Project Structure
 
 ```
@@ -68,16 +66,6 @@ src/
 ├── index.css         
 └── assets/           
 ```
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run deploy` - Deploy to GitHub Pages
-
-## Contributing
-
-Feel free to fork this project and submit pull requests!
 
 ## License
 
